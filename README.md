@@ -17,5 +17,5 @@ CSS code taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-Air) 
 
 ⚙️ Settings
 1. Uncheck Show Title Bar in the settings. Don't worry Window Button Group will appear on hover at top right corner. Vivaldi Menu Button will appear on hover at top left side.
-2. Hide Address bar by unchecking "Show Address Bar"
+2. Hide Address bar by unchecking "Show Address Bar" . Then customize Tab bar buttons according to your need.
 3. If You want Transparent Tab Bar , Tick Transparent Tab Bar in Theme Settings and set Blur = 0
