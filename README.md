@@ -1,8 +1,8 @@
 # Vivaldi-Air But Calm Like Zen
 
-![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
+![Zenify](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202025-11-23%20160549.png)
 
-![Zen like Vivaldi-Air](https://github.com/ELGUAPOLIFE/Custom-CSS-for-Vivaldi-Browser-Tab-bar-auto-collapse-or-expand-on-hover/blob/main/Screenshot%202025-09-28%20134117.png)
+![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
 
 CSS code taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-Air) by the owner [MohamedxSalah](https://github.com/MohamedxSalah)
 
