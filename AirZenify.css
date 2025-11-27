@@ -38,18 +38,19 @@ Do translate menu
     --bgDisabled: var(--bgDisabledLight);
 }
 
+
 /* Turn on For Light theme overlay */
 
 /*
 .theme-dark {
     --bg: var(--bgLight); 
-    --bgDisabled: var(--bgDisabledDark);
+    --bgDisabled: var(--bgDisabledLight);
 }
 .theme-light {
     --bg: var(--bgLight); 
     --bgDisabled: var(--bgDisabledLight);
 }
-/*
+*/
 
 /* Turn on For Dark theme overlay */
 
@@ -60,7 +61,7 @@ Do translate menu
 }
 .theme-light {
     --bg: var(--bgDark); 
-    --bgDisabled: var(--bgDisabledLight);
+    --bgDisabled: var(--bgDisabledDark);
 }
 */
 
