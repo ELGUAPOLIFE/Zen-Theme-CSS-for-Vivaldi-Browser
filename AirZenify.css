@@ -8,11 +8,11 @@ Do translate menu
 :root {
     --customRadius: 8px; /* NOT USING NOW */
 
-    --bgDark: rgba(0, 0, 0, 0.4);
-    --bgLight: rgba(255, 255, 255, 0.4);
+    --bgDark: rgba(0, 0, 0, 0.22);
+    --bgLight: rgba(255, 255, 255, 0.22);
     
-    --bgDisabledDark: rgba(0, 0, 0, 0.2);
-    --bgDisabledLight: rgba(255, 255, 255, 0.2);
+    --bgDisabledDark: rgba(0, 0, 0, 0.11);
+    --bgDisabledLight: rgba(255, 255, 255, 0.11);
 
     --blurLow: blur(4px);
     --blurMed: blur(6px);
@@ -29,11 +29,11 @@ Do translate menu
 
 /* set theme-aware overlay */
 .theme-dark {
-    --bg: var(--bgDark);
+    --bg: var(--bgDark); /*--bg: var(--bgLight);*/
     --bgDisabled: var(--bgDisabledDark);
 }
 .theme-light {
-    --bg: var(--bgLight);
+    --bg: var(--bgLight); /*--bg: var(--bgDark);*/
     --bgDisabled: var(--bgDisabledLight);
 }
 
@@ -373,7 +373,7 @@ footer .toolbar-statusbar {
 }
 
 
-
+/*
 #browser.color-behind-tabs-on .tab.active.active,
 #browser .tab-position.colored .tab.active,
 #browser .tab-position.colored .tab:not(.active),
@@ -382,14 +382,17 @@ footer .toolbar-statusbar {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 }
+*/
 
 /* hover states */
+/*
 #tabs-container .tab:not(.tab-group,.tab.active):hover,
 #browser .tab-position.colored.accordion-toggle-arrow:hover, 
 #browser .tab-position.colored .tab:not(.active):hover {
     background-color: var(--bg);
     backdrop-filter:  var(--blurMed);
 }
+*/
 
 .tab.active .favicon { filter: none !important; }
 
@@ -921,6 +924,7 @@ button.button-startpage:after { content: unset; }
    --------------------------- */
 
 /* Address & Search fields inside tab bar */
+/*
 #tabs-tabbar-container .UrlBar .UrlBar-AddressField,
 #tabs-tabbar-container .UrlBar .SearchField,
 #tabs-tabbar-container .toolbar-mainbar .UrlBar-AddressField,
@@ -931,6 +935,42 @@ button.button-startpage:after { content: unset; }
     border: none !important;
     box-shadow: none !important;
     border-radius: var(--radius) !important;
+}
+*/
+
+/* Tab Bar Url and Search field's Idle blurred */
+#tabs-tabbar-container .UrlBar .UrlBar-AddressField:not(:hover):not(:focus-within),
+#tabs-tabbar-container .UrlBar .SearchField:not(:hover):not(:focus-within),
+#tabs-tabbar-container .toolbar-mainbar .UrlBar-AddressField:not(:hover):not(:focus-within),
+#tabs-tabbar-container .toolbar-mainbar .SearchField:not(:hover):not(:focus-within),
+.tabbar-wrapper .UrlBar-AddressField:not(:hover):not(:focus-within),
+.tabbar-wrapper .SearchField:not(:hover):not(:focus-within) {
+    background-color: var(--bg) !important;
+    backdrop-filter: var(--blurMed) !important;
+    -webkit-backdrop-filter: var(--blurMed) !important;
+    border-radius: var(--radius) !important;
+    box-shadow: none !important;
+    transition: background-color 0.18s ease, backdrop-filter 0.18s ease;
+    border: none !important;
+}
+
+/* Tab Bar Url and Search field's Stronger blur when hovered/focused */
+#tabs-tabbar-container .UrlBar .UrlBar-AddressField:hover,
+#tabs-tabbar-container .UrlBar .UrlBar-AddressField:focus-within,
+#tabs-tabbar-container .UrlBar .SearchField:hover,
+#tabs-tabbar-container .UrlBar .SearchField:focus-within,
+#tabs-tabbar-container .toolbar-mainbar .UrlBar-AddressField:hover,
+#tabs-tabbar-container .toolbar-mainbar .UrlBar-AddressField:focus-within,
+#tabs-tabbar-container .toolbar-mainbar .SearchField:hover,
+#tabs-tabbar-container .toolbar-mainbar .SearchField:focus-within,
+.tabbar-wrapper .UrlBar-AddressField:hover,
+.tabbar-wrapper .UrlBar-AddressField:focus-within,
+.tabbar-wrapper .SearchField:hover,
+.tabbar-wrapper .SearchField:focus-within {
+    background-color: var(--bg) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border-radius: var(--radius) !important; /* keep corners consistent */
 }
 
 /* Ensure tab bar has proper stacking */
