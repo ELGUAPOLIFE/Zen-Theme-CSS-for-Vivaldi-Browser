@@ -4,7 +4,7 @@
 
 ![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
 
-CSS code taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-Air) by the owner [MohamedxSalah](https://github.com/MohamedxSalah)
+CSS codes are taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-Air) by the owner [MohamedxSalah](https://github.com/MohamedxSalah) and [Awesome-Vivaldi](https://github.com/PaRr0tBoY/Awesome-Vivaldi) by [PaRr0tBoY](https://github.com/PaRr0tBoY)
 
 1. Open Vivaldi Browser
 2. Type vivaldi:experiments on address bar and hit enter
