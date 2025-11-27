@@ -27,18 +27,47 @@ Do translate menu
 
 }
 
-/* set theme-aware overlay */
+/* Turn on to set theme-aware overlay, automatically changes overlay based on theme */
+
 .theme-dark {
-    --bg: var(--bgDark); /*--bg: var(--bgLight);*/
+    --bg: var(--bgDark); 
     --bgDisabled: var(--bgDisabledDark);
 }
 .theme-light {
-    --bg: var(--bgLight); /*--bg: var(--bgDark);*/
+    --bg: var(--bgLight); 
     --bgDisabled: var(--bgDisabledLight);
 }
 
+/* Turn on For Light theme overlay */
+
+/*
+.theme-dark {
+    --bg: var(--bgLight); 
+    --bgDisabled: var(--bgDisabledDark);
+}
+.theme-light {
+    --bg: var(--bgLight); 
+    --bgDisabled: var(--bgDisabledLight);
+}
+/*
+
+/* Turn on For Dark theme overlay */
+
+/*
+.theme-dark {
+    --bg: var(--bgDark); 
+    --bgDisabled: var(--bgDisabledDark);
+}
+.theme-light {
+    --bg: var(--bgDark); 
+    --bgDisabled: var(--bgDisabledLight);
+}
+*/
+
 /* Turn it on if you do not want ZEN style*/
+
 /* MAINBAR */
+
 /*
 #browser.win.address-top .toolbar-mainbar:has(.window-buttongroup.on-mainbar),
 #browser.linux.address-top .toolbar-mainbar:has(.window-buttongroup.on-mainbar) {
@@ -49,7 +78,9 @@ Do translate menu
 .density-on .UrlBar-AddressField {
     height: 40px;               /* make it 32px if you do not want zen style */
 }
+
 /* Turn it on if you do not want ZEN style*/
+
 /*
 .disable-titlebar#browser.win .window-buttongroup {
     height: 38px;
@@ -372,7 +403,7 @@ footer .toolbar-statusbar {
     line-height: initial;
 }
 
-
+/* Turn it on if you want Tab background blur - active and inactive tabs */
 /*
 #browser.color-behind-tabs-on .tab.active.active,
 #browser .tab-position.colored .tab.active,
@@ -436,7 +467,7 @@ footer .toolbar-statusbar {
     -webkit-backdrop-filter: blur(8px);
 }
 
-/* Transparent active tab background */
+/*Turn it on if you want Transparent active tab background */
 /*
 .tab.active {
     background-color: var(--bg) !important;
@@ -923,7 +954,7 @@ button.button-startpage:after { content: unset; }
    Fix: Address Bar inside Tab Bar (Vivaldi 7.6)
    --------------------------- */
 
-/* Address & Search fields inside tab bar */
+/* Turn it on if you don't want blurred Address & Search fields inside tab bar */
 /*
 #tabs-tabbar-container .UrlBar .UrlBar-AddressField,
 #tabs-tabbar-container .UrlBar .SearchField,
@@ -938,7 +969,8 @@ button.button-startpage:after { content: unset; }
 }
 */
 
-/* Tab Bar Url and Search field's Idle blurred */
+/* Turn it off if you don't want blurred Address & Search fields inside tab bar */
+/* Tab Bar Url and Search field's Idle blurred ,works only on Transparent Tab Bar*/
 #tabs-tabbar-container .UrlBar .UrlBar-AddressField:not(:hover):not(:focus-within),
 #tabs-tabbar-container .UrlBar .SearchField:not(:hover):not(:focus-within),
 #tabs-tabbar-container .toolbar-mainbar .UrlBar-AddressField:not(:hover):not(:focus-within),
@@ -954,7 +986,8 @@ button.button-startpage:after { content: unset; }
     border: none !important;
 }
 
-/* Tab Bar Url and Search field's Stronger blur when hovered/focused */
+/* Turn it on if you don't want blurred Address & Search fields inside tab bar */
+/* Tab Bar Url and Search field's Stronger blur when hovered/focused,works only on Transparent Tab Bar */
 #tabs-tabbar-container .UrlBar .UrlBar-AddressField:hover,
 #tabs-tabbar-container .UrlBar .UrlBar-AddressField:focus-within,
 #tabs-tabbar-container .UrlBar .SearchField:hover,
@@ -1023,7 +1056,7 @@ button.button-startpage:after { content: unset; }
 }
 */
 
-/* TAB TILES MODE */
+/* BETTER TAB TILES MODE */
 
 #browser .tile:has(> .tiled.webpageview) {
     border: var(--mosaicPadding) solid transparent; /* FIXING TAB TILES PART 1 */
@@ -1049,7 +1082,7 @@ button.button-startpage:after { content: unset; }
     box-shadow: 0 0 0 2px var(--colorHighlightBg); /* CHANGING COLOR OF BORDER OF ACTIVE WHEN BROWSER ISNT FOCUSED */
 }
 
-/* Hide header completely when tabs are on top and hidden */
+/* Hide header completely */
 /*
 #header {
 display: none !important;
@@ -1090,6 +1123,8 @@ display: none !important;
   opacity: 1;
   pointer-events: none !important;
 }
+
+/* Hide Vivaldi button menu completely */
 
 /*
 button.vivaldi {
