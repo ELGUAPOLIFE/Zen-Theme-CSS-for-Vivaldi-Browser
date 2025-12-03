@@ -1131,3 +1131,39 @@ button.vivaldi {
     display: none !important;
 }
 */
+
+/* Blur for new vivaldi:about page*/
+.header-section,
+.card.system-build-card,
+.card.update-info-card,
+.card.helpful-links-card,
+.footer-credits {
+    background-color: var(--bg) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+}
+
+/* Blur on Privacy Statics */
+#modal-bg .modal-wrapper {
+    background-color: var(--bg) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+}
+
+/* Search field dropdown blur Light Theme */
+/*
+.OmniDropdown {
+  background-color: rgba(255, 255, 255, 0.60) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+}
+*/
+
+/* Search field dropdown blur Dark Theme */
+
+.OmniDropdown {
+  background-color: rgba(0, 0, 0, 0.60) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+}
+
