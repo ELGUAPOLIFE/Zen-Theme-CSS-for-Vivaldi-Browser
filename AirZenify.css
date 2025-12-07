@@ -1132,7 +1132,7 @@ button.vivaldi {
 }
 */
 
-/* Blur for new vivaldi:about page*/
+/* Blur on new vivaldi:about page*/
 .header-section,
 .card.system-build-card,
 .card.update-info-card,
@@ -1143,11 +1143,27 @@ button.vivaldi {
     -webkit-backdrop-filter: blur(12px) !important;
 }
 
-/* Blur on Privacy Statics */
-#modal-bg .modal-wrapper {
-    background-color: var(--bg) !important;
+/* Blur on Privacy Statics and Privacy Dashboard */
+#modal-bg .modal-wrapper,
+#modal-bg.Privacy-Stats-Modal .TabbedView-List,
+.dialog-footer,
+#modal-bg.PrivacyDash .modal-wrapper,
+.PrivacyDash-Title,
+.PrivacyDash .dialog-content,
+.PrivacyDash-SectionContent,
+.PrivacyDash-Section--Commitment,
+.PrivacyDash-Section--Commitment .PrivacyDash-SectionTitle,
+.PrivacyDash-SectionContent,
+.PrivacyDash .dialog-header,
+.PrivacyDash-Stats-Board .TabbedView-List,
+.PrivacyDash-Stats-Board .TabbedView-Content,
+.sortselector:not(.sortselector-compact),
+.PrivacyDash-Section--Commitment .PrivacyDash-SectionContent,
+.PrivacyDash-User-Top,
+.PrivacyDash-StatusBlock--Fact {
+    background: transparent !important;
     backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
+    border: none;
 }
 
 /* Search field dropdown blur Light Theme */
