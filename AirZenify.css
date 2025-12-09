@@ -27,6 +27,18 @@ Do translate menu
 
 }
 
+/* Transparent */
+/*
+.theme-dark {
+    --bg: transparent; 
+    --bgDisabled: var(--bgDisabledDark);
+}
+.theme-light {
+    --bg: transparent; 
+    --bgDisabled: var(--bgDisabledLight);
+}
+*/
+
 /* Turn on to set theme-aware overlay, automatically changes overlay based on theme */
 
 .theme-dark {
@@ -1138,9 +1150,10 @@ button.vivaldi {
 .card.update-info-card,
 .card.helpful-links-card,
 .footer-credits {
-    background-color: var(--bg) !important;
+    background-color: transparent !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
+    border: none;
 }
 
 /* Blur on Privacy Statics and Privacy Dashboard */
@@ -1166,20 +1179,43 @@ button.vivaldi {
     border: none;
 }
 
-/* Search field dropdown blur Light Theme */
+/* Search field dropdown for Light Theme */
 /*
+.SearchField .menu,
 .OmniDropdown {
   background-color: rgba(255, 255, 255, 0.60) !important;
   backdrop-filter: blur(24px) !important;
-  -webkit-backdrop-filter: blur(24px) !important;
 }
 */
 
-/* Search field dropdown blur Dark Theme */
+/* Search field dropdown for Dark Theme */
 
+.SearchField .menu,
 .OmniDropdown {
   background-color: rgba(0, 0, 0, 0.60) !important;
   backdrop-filter: blur(24px) !important;
-  -webkit-backdrop-filter: blur(24px) !important;
+}
+
+/* Tabs Button at Tab Bar */
+
+.TabButtonPopup,
+.button-popup {
+    background: transparent;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: none;
+}
+
+/* Clock Popup Blur */
+
+.ClockPopup-Header,
+.ClockPopup-Alarms,
+.ClockPopup-Countdowns,
+.ClockPopup .toolbar,
+.ClockPopup-Active {
+    background: transparent;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: none;
 }
 
