@@ -1069,7 +1069,7 @@ button.button-startpage:after { content: unset; }
 }
 */
 
-/* BETTER TAB TILES MODE */
+/* BETTER Transparency for TAB TILES MODE */
 
 #browser .tile:has(> .tiled.webpageview) {
     border: var(--mosaicPadding) solid transparent; /* FIXING TAB TILES PART 1 */
@@ -1144,22 +1144,58 @@ button.vivaldi {
 }
 */
 
-/* Blur on new vivaldi:about page*/
-.header-section,
-.card.system-build-card,
-.card.update-info-card,
-.card.helpful-links-card,
-.footer-credits {
-    background-color: transparent !important;
+/* Search field dropdown for Light Theme */
+/*
+.SearchField .menu,
+.OmniDropdown {
+  background-color: rgba(255, 255, 255, 0.60) !important;
+  backdrop-filter: blur(24px) !important;
+}
+*/
+
+/* Search field dropdown for Dark Theme */
+/*
+.SearchField .menu,
+.OmniDropdown {
+  background-color: rgba(0, 0, 0, 0.60) !important;
+  backdrop-filter: blur(24px) !important;
+}
+*/
+
+/* Tabs Button at Tab Bar */
+
+.TabButtonPopup,
+.button-popup {
+    background: transparent !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
     border: none;
 }
 
-/* Blur on Privacy Statics and Privacy Dashboard */
+/* Clock Popup Blur */
+
+.ClockPopup-Header,
+.ClockPopup-Alarms,
+.ClockPopup-Countdowns,
+.ClockPopup .toolbar,
+.ClockPopup-Active {
+    background: transparent !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: none;
+}
+
+/* Blur on Privacy Statics */
 #modal-bg .modal-wrapper,
 #modal-bg.Privacy-Stats-Modal .TabbedView-List,
-.dialog-footer,
+.dialog-preview,
+.dialog-footer {
+    background: transparent !important;
+    backdrop-filter: blur(12px) !important;
+    border: none !important;
+}
+
+/* Blur on Privacy Dashboard */
 #modal-bg.PrivacyDash .modal-wrapper,
 .PrivacyDash-Title,
 .PrivacyDash .dialog-content,
@@ -1176,46 +1212,18 @@ button.vivaldi {
 .PrivacyDash-StatusBlock--Fact {
     background: transparent !important;
     backdrop-filter: blur(12px) !important;
-    border: none;
+    border: none !important;
 }
 
-/* Search field dropdown for Light Theme */
-/*
-.SearchField .menu,
-.OmniDropdown {
-  background-color: rgba(255, 255, 255, 0.60) !important;
-  backdrop-filter: blur(24px) !important;
-}
-*/
-
-/* Search field dropdown for Dark Theme */
-
-.SearchField .menu,
-.OmniDropdown {
-  background-color: rgba(0, 0, 0, 0.60) !important;
-  backdrop-filter: blur(24px) !important;
-}
-
-/* Tabs Button at Tab Bar */
-
-.TabButtonPopup,
-.button-popup {
-    background: transparent;
+/* Blur on new vivaldi:about page*/
+.header-section,
+.card.system-build-card,
+.card.update-info-card,
+.card.helpful-links-card,
+.footer-credits {
+    background-color: transparent !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
-    border: none;
-}
-
-/* Clock Popup Blur */
-
-.ClockPopup-Header,
-.ClockPopup-Alarms,
-.ClockPopup-Countdowns,
-.ClockPopup .toolbar,
-.ClockPopup-Active {
-    background: transparent;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    border: none;
+    border: none !important;
 }
 
