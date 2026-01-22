@@ -1171,6 +1171,9 @@ button.vivaldi {
     -webkit-backdrop-filter: blur(12px) !important;
     border: none;
 }
+.TabButtonPopup .vivaldi-tree .VivaldiList .tree-item .tree-row {
+    background-color: transparent !important;
+}
 
 /* Clock Popup Blur */
 
