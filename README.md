@@ -23,3 +23,5 @@ CSS codes are taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-
 ### 🎉Announcement
 Now AirZenify.css and DynamicNeonTab.css can be used with the #vivaldi-auto-hide flag introduced in Vivaldi 7.8. Both CSS work seamlessly with the new auto-hide UI feature.
 Unfortunately, SuperPins.css no longer works after the Vivaldi 7.8 update.
+Here are a few examples:
+![Tab bar](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202026-02-03%20145851.png)
