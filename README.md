@@ -20,5 +20,6 @@ CSS codes are taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-
 2. Hide the Address Bar by unchecking Show Address Bar. Then customize the Tab Bar buttons as desired.  
 3. To make the Tab Bar transparent, enable Transparent Tab Bar in Theme settings and set Blur = 0.
 
-### Announcement
+### 🎉Announcement
 Now AirZenify.css and DynamicNeonTab.css can be used with the #vivaldi-auto-hide flag introduced in Vivaldi 7.8. Both CSS work seamlessly with the new auto-hide UI feature.
+Unfortunately, SuperPins.css no longer works after the Vivaldi 7.8 update.
