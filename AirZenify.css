@@ -1014,6 +1014,7 @@ button.button-startpage:after { content: unset; }
 
 /* Turn it off if you don't want blurred Address & Search fields inside tab bar */
 /* Tab Bar Url and Search field's Idle blurred ,works only on Transparent Tab Bar*/
+
 #tabs-tabbar-container .UrlBar .UrlBar-AddressField:not(:hover):not(:focus-within),
 #tabs-tabbar-container .UrlBar .SearchField:not(:hover):not(:focus-within),
 #tabs-tabbar-container .toolbar-mainbar .UrlBar-AddressField:not(:hover):not(:focus-within),
@@ -1090,6 +1091,7 @@ button.button-startpage:after { content: unset; }
 .auto-hide
 #browser:not(.fullscreen) #webpage-stack {
     margin: 0 0px 0px 0px;
+    border-radius: 0px;
 }
 
 /* Remove all background images */
@@ -1272,3 +1274,4 @@ button.vivaldi {
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
 }
+
