@@ -1,9 +1,5 @@
 # Vivaldi-Air But Calm Like Zen
 
-![Zenify](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202025-11-27%20100810.png)
-
-![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
-
 CSS codes are taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-Air) by the owner [MohamedxSalah](https://github.com/MohamedxSalah) and [Awesome-Vivaldi](https://github.com/PaRr0tBoY/Awesome-Vivaldi) by [PaRr0tBoY](https://github.com/PaRr0tBoY)
 
 1. Open the Vivaldi browser.  
@@ -24,5 +20,7 @@ CSS codes are taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-
 Now AirZenify.css and DynamicNeonTab.css can be used with the #vivaldi-auto-hide flag introduced in Vivaldi 7.8. Both CSS work seamlessly with the new auto-hide UI feature.
 Unfortunately, SuperPins.css no longer works after the Vivaldi 7.8 update.
 Here are a few examples:
+
 ![Tab bar](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202026-02-03%20145851.png)
+![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
 ![Panel](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202026-02-03%20150418.png)
