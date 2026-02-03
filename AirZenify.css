@@ -184,6 +184,13 @@ Do translate menu
 #panels-container.left { margin-left: /*4px*/ 5px; }  
 #panels-container.right { margin-right: /*4px*/ 5px; }  
 
+
+/* Fix Side Panel margin when Auto-hide UI is on */
+.auto-hide
+#panels-container.left { margin-left: 0px; }  
+.auto-hide
+#panels-container.right { margin-right: 0px; }  
+
 #panels-container #switch { padding-bottom: 5px; min-width: 41px; }
 
 
@@ -394,6 +401,13 @@ footer .toolbar-statusbar {
     /*margin: 4px 4px 0 4px;*/ margin: 5px 5px 0px 5px;
     border-radius: var(--radius);
     height: 30px;
+}
+
+/* Fix Tab bar margin when Auto-hide UI is on */
+
+.auto-hide
+#browser:not(.transparent-tabbar) #tabs-tabbar-container {
+    margin: 0px 0px 0 0px;
 }
 
 /* Turn it on if you do not want ZEN style*/
@@ -842,9 +856,25 @@ button.button-startpage:after { content: unset; }
     margin-top: 0px !important;
 }
 
+/* Left side (Fixed Bottom spacing of Tab Bar when Auto-hide UI is on) */
+.auto-hide
+.tabs-left #tabs-tabbar-container {
+    margin-bottom: 0px !important;
+	margin-right: 0px !important;
+    margin-top: 0px !important;
+}
+
 /* Right side: use container instead */
 .tabs-right #tabs-tabbar-container {
     margin-bottom: /*4px*/ 7px !important;
+	margin-left: 0px !important;
+	margin-top: 0px !important;
+}
+
+/* Right side: use container instead (Fixed Bottom spacing of Tab Bar when Auto-hide UI is on) */
+.auto-hide
+.tabs-right #tabs-tabbar-container {
+    margin-bottom: 0px !important;
 	margin-left: 0px !important;
 	margin-top: 0px !important;
 }
@@ -1056,6 +1086,12 @@ button.button-startpage:after { content: unset; }
                                             /*Use this for shadow on the webpage*/
 }
 
+/* Fixed webpage margin issue with New Auto Hide UI */
+.auto-hide
+#browser:not(.fullscreen) #webpage-stack {
+    margin: 0 0px 0px 0px;
+}
+
 /* Remove all background images */
 
 /*
@@ -1230,3 +1266,9 @@ button.vivaldi {
     border: none !important;
 }
 
+/* Blur on Auto Hide Tite Bar & Windows Button Group */
+.auto-hide-wrapper.top {
+    background-color: var(--bg) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+}
