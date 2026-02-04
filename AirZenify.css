@@ -1144,7 +1144,7 @@ display: none !important;
 
 .window-buttongroup {
     height: 26px !important;
- }  /* Total height */   
+}  /* Total height */   
 
 
 .window-buttongroup button {
@@ -1154,6 +1154,20 @@ display: none !important;
     /*margin: 0 2px !important;*/  /* Gap between buttons */
 }
 
+/* Resize the window button group when Auto-hide UI enabled */
+
+.auto-hide
+.window-buttongroup {
+    height: 31px !important;
+}  /* Total height */   
+
+.auto-hide
+.window-buttongroup button {
+    width: 32px !important;    /* Each Button Width */
+    height: 31px !important;   /* Each Button Height */
+    padding: 0 !important;
+    /*margin: 0 2px !important;*/  /* Gap between buttons */
+}
 
 /* ZEN HEADER - HIDE HEADER UNTIL HOVER */
 
