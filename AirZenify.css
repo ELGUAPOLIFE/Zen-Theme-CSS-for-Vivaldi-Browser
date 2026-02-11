@@ -1224,7 +1224,8 @@ button.vivaldi {
     border: none;
 }
 .TabButtonPopup .vivaldi-tree .VivaldiList .tree-item .tree-row {
-    background-color: transparent !important;
+    background-color: var(--bg) !important;
+    border: none;
 }
 
 /* Clock Popup Blur */
@@ -1276,7 +1277,7 @@ button.vivaldi {
 .card.update-info-card,
 .card.helpful-links-card,
 .footer-credits {
-    background-color: transparent !important;
+    background-color: var(--bg) !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
     border: none !important;
