@@ -1277,7 +1277,7 @@ button.vivaldi {
 .card.update-info-card,
 .card.helpful-links-card,
 .footer-credits {
-    background-color: var(--bg) !important;
+    background-color: var(--bgDisabled) !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
     border: none !important;
