@@ -21,10 +21,15 @@ CSS code is taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-Ai
 
 Unfortunately, [SuperPins.css](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/SuperPins.css) no longer works after the Vivaldi 7.8 update.
 
-Here are a few examples:
-
+## Here are a few examples:
+### Auto-hide UI ON:
+#### Acrylic Tab bar (Light Mode):
 ![Tab bar](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202026-02-03%20145851.png)
-![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
+#### Acrylic Panel (Light Mode):
 ![Panel](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202026-02-03%20150418.png)
+#### Colored Tab bar:
+![t](https://forum.vivaldi.net/assets/uploads/files/1770114158567-screenshot-2026-02-03-150137.png)
+![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
+
 
 More Screenshots [here](https://forum.vivaldi.net/post/884523)
