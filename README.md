@@ -27,4 +27,4 @@ Here are a few examples:
 ![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
 ![Panel](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202026-02-03%20150418.png)
 
-More Screenshots ![here](https://forum.vivaldi.net/post/884523)
+More Screenshots [here](https://forum.vivaldi.net/post/884523)
