@@ -32,6 +32,8 @@ Unfortunately, [SuperPins.css](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-
 ### Auto-hide UI OFF:
 #### Transparent Tab Bar (Dark Mode & Full Screen):
 ![Dark Mode & Transparent Tab Bar](https://github.com/ELGUAPOLIFE/Vivaldi-air-but-calm-like-Zen/blob/main/Screenshot%202025-11-20%20095010.png)
+#### Transparent Tab Bar (Dark Mode & Minimized):
+![u](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/Screenshot%202026-02-14%20225317.png)
 
 
 More Screenshots [here](https://forum.vivaldi.net/post/884523)
