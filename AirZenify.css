@@ -1290,3 +1290,10 @@ button.vivaldi {
     -webkit-backdrop-filter: blur(12px) !important;
 }
 
+/* Blur on Quick Commands */
+.quick-command-container .quick-commands {
+    background-color: var(--bgDisabled) !important;
+    backdrop-filter: blur(12px) !important;
+    border: none !important;
+}
+
