@@ -17,7 +17,7 @@ CSS code is taken from [Vivaldi-Air](https://github.com/MohamedxSalah/Vivaldi-Ai
 3. To make the Tab Bar transparent, enable Transparent Tab Bar in Theme settings and set Blur = 0.
 
 ### 🎉 Announcement
-[AirZenify.css](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/AirZenify.css) and [DynamicNeonTab.css](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/DynamicNeonTab.css) now work with the #vivaldi-auto-hide flag introduced in Vivaldi 7.8. Both CSS files integrate seamlessly with the new auto-hide UI feature.
+[AirZenify.css](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/AirZenify.css) and [DynamicNeonTab.css](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/DynamicNeonTab.css) now work with the UI auto-hide feature introduced in Vivaldi 7.9. Both CSS files integrate seamlessly with the new auto-hide UI feature.
 
 Unfortunately, [SuperPins.css](https://github.com/ELGUAPOLIFE/Zen-Theme-CSS-for-Vivaldi-Browser/blob/main/SuperPins.css) no longer works after the Vivaldi 7.8 update.
 
