@@ -1133,12 +1133,13 @@ button.button-startpage:after { content: unset; }
     box-shadow: 0 0 0 2px var(--colorHighlightBg); /* CHANGING COLOR OF BORDER OF ACTIVE WHEN BROWSER ISNT FOCUSED */
 }
 
-/* Hide header completely */
-/*
+/* Hide header completely during UI Auto-hide */
+
+.auto-hide
 #header {
 display: none !important;
 }
-*/
+
 
 /* Resize the window button group */
 
@@ -1296,4 +1297,3 @@ button.vivaldi {
     backdrop-filter: blur(12px) !important;
     border: none !important;
 }
-
