@@ -177,12 +177,12 @@ Do translate menu
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
     border-radius: var(--radius);
-	margin-left: /*4px*/5px;
-	margin-right: /*4px;*/5px;
+	margin-left: /*4px*/ 5px;
+	margin-right: /*4px*/ 5px;
 }
 
 #panels-container.left { margin-left: /*4px*/ 5px; }  
-#panels-container.right { margin-right: /*4px*/ 5px; }  
+#panels-container.right { margin-right: /*4px*/ 5px; }
 
 
 /* Fix Side Panel margin when Auto-hide UI is on */
@@ -1296,4 +1296,17 @@ button.vivaldi {
     background-color: var(--bgDisabled) !important;
     backdrop-filter: blur(12px) !important;
     border: none !important;
+}
+
+#browser .button-startpage.up-level {
+    background-color: var(--bg);
+}
+
+.unified-ui .auto-hide-wrapper {
+    background-color: transparent;
+    /*color: transparent;*/
+}
+
+#browser.unified-ui #panels-container .panel {
+    background: transparent;
 }
